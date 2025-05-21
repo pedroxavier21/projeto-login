@@ -43,7 +43,7 @@ section{
   margin-bottom: 20px;
 }
 
-.campo .material-symbols-outlined {
+.campo span{
   position: absolute;
   left: 10px;
   top: 50%;
