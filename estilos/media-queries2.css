@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@media screen and (min-width:768px) {
+
+   .campo input{
+        width: 90%;
+   }
+
+    #formulario{
+        width: 50vw;
+    }
+}

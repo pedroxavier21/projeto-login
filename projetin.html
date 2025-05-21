@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Cópia</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #CCC9DB;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    main {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      border-top: 5px solid #544A86;
+      box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.39);
+      max-width: 800px;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    main h1 {
+      margin-bottom: 15px;
+    }
+
+    main p {
+      margin: 10px 0;
+      line-height: 1.5em;
+    }
+
+    section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.2);
+      max-width: 800px;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    section h1 {
+      margin-bottom: 15px;
+    }
+
+    .radio-group,
+    .genero-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 1rem;
+    }
+
+    input[type="radio"] {
+      transform: scale(1.2);
+       margin: 10px;
+        padding: 10px;
+            background-color: #544A86;
+    }
+    input[type="radio"]:hover{
+    
+    
+    }
+    label{
+        font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1>Check-in obrigatório - SEMANA DO ZERO AO PROGRAMADOR CONTRATADO</h1>
+    <p><strong>⚠️ Responder essa pesquisa é um requisito obrigatório para garantir sua participação no evento.</strong></p>
+    <p>E que tal ganhar 🎁<strong> uma aula presente</strong> apenas por responder essa pesquisa?</p>
+    <p>É isso aí, é só responder a pesquisa e essa aula é sua: 🤓 "05 MITOS QUE TE IMPEDEM DE SE TORNAR PROGRAMADOR(A)".</p>
+    <p>Estamos preparando todo o conteúdo do evento e queremos superar suas expectativas, <strong>por isso queremos ouvir de você o que mais você gostaria de aprender na Semana do Zero ao Programador Contratado, quais suas principais dificuldades e necessidades</strong>, responda com o máximo de atenção.</p>
+    <p>Agradecemos sua contribuição. 💜</p>
+    <hr>
+    <p><strong>gildasio.andrade95@gmail.com</strong> <a href="#">Mudar de conta</a></p>
+    <hr>
+  </main>
+
+  <section>
+    <h1>Você é:</h1>
+    <div class="radio-group">
+      <label><input type="radio" name="prof"> Programador(a/e) iniciante</label>
+      <label><input type="radio" name="prof"> Programador(a/e) experiente</label>
+      <label><input type="radio" name="prof"> Trabalho em outra área e quero migrar para a programação</label>
+      <label><input type="radio" name="prof"> Estou começando minha carreira como programador(a/e)</label>
+      <label><input type="radio" name="prof"> Estudante de outra área mas quero aprender programação</label>
+      <label><input type="radio" name="prof"> Estudante de programação</label>
+      <label><input type="radio" name="prof"> Não faço nada no momento, mas estou curioso(a/e) sobre a programação</label>
+      <label><input type="radio" name="prof"> Outro:</label>
+    </div>
+  </section>
+
+  <section>
+    <h1>Com qual gênero você se identifica</h1>
+    <p>(*Porque estamos perguntando isso? Essa pergunta é para medirmos o perfil da nossa audiência! Você sabia que temos apenas em torno de 20% de mulheres inscritas a cada evento? Essa questão é para acompanharmos este crescimento.)</p>
+    <div class="genero-group">
+      <label><input type="radio" name="genero"> Masculino</label>
+      <label><input type="radio" name="genero"> Feminino</label>
+      <label><input type="radio" name="genero"> Não-binário</label>
+      <label><input type="radio" name="genero"> Outro</label>
+    </div>
+  </section>
+
+</body>
+</html>

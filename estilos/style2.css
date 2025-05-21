@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/*
+    Paleta de cores 
+    #722770
+    #955D94
+    #DCC9DB
+    #5f2c82
+    #49a09d
+*/
+
+#D56757
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background: linear-gradient(to bottom, #ce5f84, #da7f63, #714a97, #28516d);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+#formulario {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo branco transparente */
+    backdrop-filter: blur(10px); /* Desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borda suave */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    margin: auto;
+    width: 80vw;
+}
+section{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.campo {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.campo .material-symbols-outlined {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  pointer-events: none;
+}
+
+.campo input {
+  width: 90%;
+  padding: 10px 10px 10px 40px; /* espaço para o ícone à esquerda */
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  transition: background-color 0.4s ease,color 0.4s ease;
+}
+.campo input#entrar{
+    display: inline-block;
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+}
+.campo a{
+  font-weight: lighter;
+  width: 200px;
+  padding: 10px 10px 10px 10px; /* espaço para o ícone à esquerda */
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  transition: background-color 0.4s ease,color 0.4s ease;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+.campo input:hover{
+   background-color:  rgba(37, 36, 36, 0.2);
+   transition: 0.4s;
+}
+.campo a:hover{
+   background-color:  rgba(37, 36, 36, 0.2);
+   transition: 0.4s;
+}
