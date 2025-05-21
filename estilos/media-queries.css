@@ -7,20 +7,21 @@
         flex-direction: row;
     }
 
+    #formulario p {
+        font-size: 1.2em;
+        text-align: justify;
+    }
     section#login > div#imagem {
         width: 50%;
         height: auto;
         float: left;
         background-image: url(../imagens/imgback-medio.jpg.jpg);
+         border: none;
     }
 
     #formulario {
         width: 70%;
         float: right;
-    }
-
-    input {
-        width: 90%;
     }
 }
 
@@ -32,24 +33,26 @@
         width: 950px;
         height: 400px;
         display: flex;
-        flex-direction: row;
-
+        flex-direction: row-reverse;
+       
     }
 
     section#login > div#imagem {
         width: 50%;
         height: 100%;
-        float: left;
+        float: right;
           background-image: url(../imagens/imgback-grande.jpg.jpg);
+           border: none;
     }
-
+ #formulario p {
+        font-size: 1.2em;
+        text-align: justify;
+    }
     #formulario {
         width: 50%;
         padding: 20px;
-         float: right;
+        flex-direction: column;
+        justify-content: center;
     }
 
-       input {
-        width: 90%;
-    }
     }
