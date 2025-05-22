@@ -95,7 +95,8 @@
     overflow: hidden;
     height: 45px;
     padding-left: 5px;
-    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .campo label {
