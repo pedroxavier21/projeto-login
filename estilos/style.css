@@ -89,13 +89,13 @@
     margin-top: 10px;
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     background-color: #6c3697;
     border-radius: 10px;
     overflow: hidden;
     height: 45px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 0px;
 }
 
 .campo label {
@@ -114,7 +114,7 @@ div.campo > input:focus-within{
     background-color: white;
 }
 .campo input {
-    width: 80%;
+    width: 89vw;
     flex: 1;
     height: 100%;
     padding: 0 10px;
@@ -159,7 +159,7 @@ div.campo > input:focus-within{
         border-radius: 10px;
         background-color: rgba(255, 255, 255, 0.2);
         height: 100%;
-        width: 850%;
+        width: 85%;
         color: white;
         border: none;
         font-size: 1em;
